@@ -1,0 +1,27 @@
+.Check-out {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  /* border: 1px solid red; */
+}
+.Check-out-add {
+  width: 100%;
+  /* border: 2px solid red; */
+  max-height: 180px;
+  margin-bottom: 10px;
+}
+.Check-out-title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.Check-out-cart {
+  /* width: 100vw; */
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  height: fit-content;
+}

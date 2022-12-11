@@ -1,0 +1,80 @@
+.login-logo {
+  margin: 20px auto;
+  object-fit: contain;
+  width: 100px;
+}
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.Login_container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.Login_container > h1 {
+  /* font-size: 20px; */
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.Login_container > form > h5 {
+  margin-bottom: 5px;
+}
+.Login_container > form > input {
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  padding-left: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.Login_container > form > input::placeholder {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.Login_container > form > input:focus {
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 0px 2.5px 2.5px #f0c14b;
+  border: 0.5px solid red;
+}
+.Login_signIn-btn,
+.CreateAcc-btn {
+  background-color: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.CreateAcc-btn {
+  background-color: white;
+  border-color: darkgray;
+}
+.Login-details {
+  width: 98%;
+  text-align: justify;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 15px auto;
+}
+.Login-details > span {
+  margin: 0 5px;
+}
+.Login-details > input {
+  height: 10px;
+}
+.Login-details>p{
+    margin-top: 10px;
+}
